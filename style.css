@@ -177,3 +177,22 @@ footer a:hover {
     margin: 15px 0;
     font-size: 1.1rem;
 }
+.resume-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: transparent;
+    color: #ff4500; /* Matching your orange theme */
+    border: 2px solid #ff4500;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.resume-btn:hover {
+    background-color: #ff4500;
+    color: #fff;
+    box-shadow: 0 0 15px rgba(255, 69, 0, 0.5);
+    transform: scale(1.05);
+}
