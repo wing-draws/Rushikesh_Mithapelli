@@ -149,3 +149,31 @@ header {
         text-align: center;
     }
 }
+footer {
+    padding: 60px 20px;
+    background-color: #0a0a0a;
+    border-top: 1px solid #333;
+    text-align: center;
+}
+
+footer h2 {
+    color: #ff4500;
+    margin-bottom: 20px;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+footer a:hover {
+    color: #ff4500; /* Glows orange on hover */
+    text-decoration: underline;
+}
+
+.social-links {
+    margin: 15px 0;
+    font-size: 1.1rem;
+}
