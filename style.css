@@ -105,4 +105,18 @@ footer {
     object-fit: cover; /* Crops them neatly so they don't stretch */
     border-radius: 8px;
 }
+/* Makes the clickable area fit the image exactly */
+.small-grid a {
+    display: contents;
+}
+
+.small-grid img {
+    cursor: zoom-in; /* Shows a magnifying glass on hover */
+    transition: transform 0.3s ease;
+}
+
+.small-grid img:hover {
+    transform: scale(1.05);
+    border: 2px solid #ff4500; /* Highlights the one you're about to click */
+}
 
