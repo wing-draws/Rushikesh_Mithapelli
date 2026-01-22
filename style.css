@@ -90,4 +90,19 @@ footer {
     object-fit: cover; /* Crops them neatly into a uniform grid */
     object-position: center; 
 }
+/* This forces the commission images to stay small and side-by-side */
+.small-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.small-grid img {
+    width: 45%; /* This puts two images side-by-side on a phone */
+    max-width: 200px; /* Prevents them from getting too big on tablets */
+    height: 250px; /* Keeps all portraits at the same height */
+    object-fit: cover; /* Crops them neatly so they don't stretch */
+    border-radius: 8px;
+}
 
